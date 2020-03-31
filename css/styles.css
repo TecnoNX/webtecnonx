@@ -23,7 +23,11 @@ body{
 header{
     background: transparent;
     padding: 1em 0;
-    position: relative;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
 }
 
 header::after{
@@ -44,10 +48,14 @@ header::after{
     top:100%;
     right:0;
     position: absolute;
-    background:transparent;
+    background: rgba(81, 190, 81, 0.589);
     clip-path: circle(0px at top right);
     transition: clip-path ease-in-out 700ms;
 }
+.site-nav {
+    font-size: 11px;
+}
+
 .site-nav-open{
     clip-path: circle(150% at top right);
 }
@@ -72,9 +80,8 @@ header::after{
 .site-nav a:hover,
 .site-nav a:focus{
     background: #79e45f;
-    color: #184210;
+   
 }
-
 
 .menu-toggle{
    
@@ -111,47 +118,12 @@ header::after{
     transform: translateY(3px);
 }
 
-@media (min-width:881px){
-    
-  .menu-toggle{
-      display: none;
-  } 
-  .site-nav{
-      height: auto;
-      position: relative;
-      background: transparent;
-      float: right;
-      margin-right: 10px;
-      clip-path: initial;
-  } 
-  .site-nav li{
-      display: inline-block;
-      border: none;
-  }
-
-  .site-nav a{
-      padding: 0;
-      margin-left: 3em;
-  }
-  .site-nav--icon{
-      display: none;
-  }
-  .site-nav a:hover,
-  .site-nav a:focus{
-      background: transparent;
-  }
-
-}
-.site-nav {
-    font-size: 11px;
-}
-
 /* Contenido de la pagina */
 
 .textp{
     color: #ffffff;
     position: relative;
-    padding: 200px 0;
+    padding: 330px 0;
     text-align: center;
     font-weight: 400;
 }
@@ -161,3 +133,35 @@ header::after{
 .textp p{
     font-size: 150%;
 }
+
+@media only screen and (min-width: 881px) {
+    
+    .menu-toggle{
+        display: none;
+    } 
+    .site-nav{
+        height: auto;
+        position: relative;
+        background: transparent;
+        float: right;
+        margin-right: 10px;
+        clip-path: initial;
+    } 
+    .site-nav li{
+        display: inline-block;
+        border: none;
+    }
+  
+    .site-nav a{
+        padding: 0;
+        margin-left: 3em;
+    }
+    
+    .site-nav a:hover,
+    .site-nav a:focus{
+        background: rgb(67, 179, 67);
+    }
+  
+  }
+  
+  
