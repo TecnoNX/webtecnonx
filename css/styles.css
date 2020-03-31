@@ -18,150 +18,57 @@ body{
     z-index: -1;
 
 }
-/* toda la navegacion y menus */
+/*Contenido de la pagina principal */
 
-header{
-    background: transparent;
-    padding: 1em 0;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 99;
-}
-
-header::after{
-    content: '';
-    clear: both;
-    display: block;
-}
-.logo{
-    float: left;
-    margin-top: -1%;
-}
-.logo img{
-    width: 68%;
-    height: 30%;
-}
-
-.site-nav{
-    top:100%;
-    right:0;
-    position: absolute;
-    background: rgba(81, 190, 81, 0.589);
-    clip-path: circle(0px at top right);
-    transition: clip-path ease-in-out 700ms;
-}
-.site-nav {
-    font-size: 11px;
-}
-
-.site-nav-open{
-    clip-path: circle(150% at top right);
-}
-.site-nav ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.site-nav li{
-    border-bottom: 1px solid #575766;
-}
-.site-nav li:last-child{
-    border-bottom: none;
-}
-.site-nav a{
-    color: #ffffff;
-    display: block;
-    padding: 2em 6em;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-.site-nav a:hover,
-.site-nav a:focus{
-    background: #79e45f;
-   
-}
-
-.menu-toggle{
-   
-    padding: 2em;
-    position: absolute;
-    top: .5em;
-    right: .5em;
-    
-}
-.menu-open .hamburger{
-    transform: rotate(45deg);
-}
-.menu-open .hamburger::before{
-    opacity: 0;
-}
-.menu-open .hamburger::after{
-    transform: translateY(-3px) rotate(-90deg);
-}
-.hamburger,
-.hamburger::before,
-.hamburger::after{
-    content: '';
-    display: block;
-    background: #ebebd3;
-    height: 3px;
-    width: 1.75em;
-    border-radius: 3px;
-    transition: all ease-in-out 500ms;
-}
-.hamburger::before{
-    transform: translateY(-6px);
-}
-.hamburger::after{
-    transform: translateY(3px);
-}
-
-/* Contenido de la pagina */
-
-.textp{
-    color: #ffffff;
+/* Objetivos principales */
+.contenido{
+    background-color: rgb(30,33,37);
     position: relative;
-    padding: 330px 0;
-    text-align: center;
-    font-weight: 400;
-}
-.textp h3{
-    font-size: 390%;
-}
-.textp p{
-    font-size: 150%;
+    padding: 3%;
 }
 
-@media only screen and (min-width: 881px) {
+.test{
+    width: 30%;
+    display: inline-block;
+    padding: 2%;
+    margin: 0.5%;
+    text-align: center;
+    color: honeydew;
+    font-size: 18px;
+}
+.vuln{
+    width: 30%;
+    display: inline-block;
+    padding: 0%;
+    margin: 1%;
+    text-align: center;
+    color: honeydew;
+    font-size: 18px;
+}
+
+.anali{
+    width: 30%;
+    display: inline-block;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+    color: honeydew;
+    font-size: 18px;
+}
+.contenido img{
+    width: 90%;
+    height: 78%;
+    margin-bottom: 4%;
+}
+.ctext{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width: 850px){
+
     
-    .menu-toggle{
-        display: none;
-    } 
-    .site-nav{
-        height: auto;
-        position: relative;
-        background: transparent;
-        float: right;
-        margin-right: 10px;
-        clip-path: initial;
-    } 
-    .site-nav li{
-        display: inline-block;
-        border: none;
-    }
-  
-    .site-nav a{
-        padding: 0;
-        margin-left: 3em;
-    }
-    
-    .site-nav a:hover,
-    .site-nav a:focus{
-        background: rgb(67, 179, 67);
-    }
-  
-  }
-  
+}
   
