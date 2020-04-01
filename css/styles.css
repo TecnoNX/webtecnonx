@@ -10,6 +10,7 @@ body{
    background: url(../images/tipografia), #1a1a1a;
    background-size: cover;
    background-attachment: fixed;
+   color: white;
 }
 #particles-js{
     width: 100%;
@@ -67,8 +68,85 @@ body{
     margin-bottom: 2%;
 }
 
+.contenido2{
+    background-color: rgb(41,46,51);
+}
+.contenido2 h3{
+    text-align: center;
+    color: white;
+    font-size: 29px;
+    padding: 29px;
+}
+.contenido2 p{
+    color: white;
+    font-size: 18px;
+    margin: 40px;
+}
+.texvid{
+    width: 50%;
+
+}
+.vid{
+    margin-left: 50%;
+    margin-top: -14%;
+    
+}
+/*caracteristicas*/
+
+.caracterisca{
+    background-color: rgb(30,33,37);
+    text-align: center;
+    
+}
+.caracterisca h3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.care1{
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 7%;
+}
+.care2{
+    display: inline-block;
+    width: 40%;
+}
+.care3{
+    display: inline-block;
+    width: 40%;
+}
+.care4{
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 7%;
+}
+.caracterisca i{
+    font-size: 45px;;
+}
+.caracterisca h5{
+    font-size: 22px;
+}
+.caracterisca p{
+    font-size: 16px;
+}
+
 @media screen and (max-width: 850px){
 
+
+.test{
+    display: block;
+    margin-left: 33%;
+
+}
+.anali{
+    display: block;
+    margin-left: 33%;
+}
+.vuln{
+    display: block;
+    margin-left: 33%;
+}
     
 }
   
