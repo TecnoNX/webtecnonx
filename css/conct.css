@@ -1,0 +1,37 @@
+
+        form{
+            width: 89%;
+            margin: auto;
+            background: rgba(41, 46, 51, 0.788);
+            padding: 10px 20px;
+            box-sizing: border-box;
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+        .contfor h2{
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 30px;
+        }
+        .contfor{
+            text-align: center;
+        }
+        input, textarea{
+            
+            width: 80%;
+            margin-bottom: 40px;
+            padding: 8px;
+            box-sizing: border-box;
+            font-size: 18px;
+            opacity: none;
+        }
+        .imgconct img{
+            width: 35%;
+            height: auto;
+            margin-bottom: 5%;
+        }
+        .btnn{
+            background-color: rgba(59, 196, 59, 0.897);
+            color: honeydew;
+            font-size: 22px;
+        }

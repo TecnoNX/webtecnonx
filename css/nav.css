@@ -34,6 +34,7 @@ header::after{
 }
 .site-nav {
     font-size: 11px;
+    
 }
 
 .site-nav-open{
@@ -145,4 +146,10 @@ header::after{
         background: rgb(67, 179, 67);
     }
   
+  }
+  @media only screen and (max-width:881px){
+      .site-nav{
+          width: 100%;
+          text-align: center;
+      }
   }
