@@ -164,6 +164,7 @@ body{
 
 .contenedor3{
     background-color: rgb(41,46,51);
+    width: 100%;
 }
 .imgcont3 {
     background: url(../images/comp.jpg);
@@ -219,21 +220,82 @@ body{
     font-size: 190%;
     opacity: 77%;
 }
+
+.footer{
+    margin: 10%;
+    text-align: center;
+    
+}
+.mas{
+    display: inline-block;
+    width: 30%;
+}
+.mas p{
+    margin-top: 19%;
+}
+.social{
+    display: inline-block;
+    width: 30%;
+}
+.conct{
+    display: inline-block;
+    width: 30%;
+}
+.mas h5,.social h5,.conct h5{
+    font-size: 140%;
+    margin-bottom: 12%;
+}
+.social i{
+    font-size: 250%;
+    width: 20%;
+    margin-top: 15%;
+}
+.foo{
+    text-align: center;
+    font-size: 120%;
+    margin-bottom: 4%;
+}
 @media screen and (max-width: 850px){
 
 
 .test{
     display: block;
-    margin-left: 33%;
-
+    margin-left: 20%;
+    width: 60%;
 }
 .anali{
     display: block;
-    margin-left: 33%;
+    margin-left: 20%;
+    width: 60%;
 }
 .vuln{
     display: block;
-    margin-left: 33%;
+    margin-left: 20%;
+    width: 60%;
+}
+.texvid{
+    width: 100%;
+    margin-bottom: 20%;
+}
+.vid{
+    margin-left: 15%;
+}
+.imgcont3{
+    background: none;
+}
+.titu{
+    width: 100%;
+    margin-bottom: 35%;
+}
+.comp{
+    background-color: rgb(41,46,51);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 7%;
+}
+.social i{
+    font-size:170% ;
+    margin: 4%;
 }
     
 }
