@@ -1,8 +1,8 @@
 /* toda la navegacion y menus y cabecera*/
 
 header{
-    background: transparent;
-    padding: 1em 0;
+    background: rgba(66, 66, 66, 0.548);
+    padding: 0%;
     position: fixed;
     left: 0;
     top: 0;
@@ -17,11 +17,11 @@ header::after{
 }
 .logo{
     float: left;
-    margin-top: -1%;
+    margin-top: 0%;
 }
 .logo img{
     width: 68%;
-    height: 30%;
+    height: 25%;
 }
 
 .site-nav{
@@ -109,9 +109,12 @@ header::after{
 }
 .textp h3{
     font-size: 390%;
+    margin-bottom: 5%;
 }
 .textp p{
+    margin-left: 10%;
     font-size: 150%;
+    width: 80%
 }
 
 @media only screen and (min-width: 881px) {

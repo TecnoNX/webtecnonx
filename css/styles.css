@@ -134,6 +134,91 @@ body{
     font-size: 16px;
 }
 
+
+
+.box{
+    text-align: center;
+    font-size: 30px;
+    margin: 10%;
+}
+.box h6{
+    font-size: 40px;
+}
+.box i{
+    font-size: 75px;
+    opacity: 80%;
+}
+.user{
+    display: inline-block;
+    width: 30%;
+}
+.mach{
+    display: inline-block;
+    width: 30%;
+}
+.cha{
+    display: inline-block;
+    width: 30%;
+}
+
+
+.contenedor3{
+    background-color: rgb(41,46,51);
+}
+.imgcont3 {
+    background: url(../images/comp.jpg);
+    width: 46%;
+    padding-bottom: 65%;
+    z-index: 99;
+}
+.titu{
+    float: right;
+    width: 50%;
+    margin-top: -57%;
+    text-align: center;
+}
+.titu h4{
+    font-size: 200%;
+    margin-bottom: 8%;
+}
+.titu p{
+    font-size: 120%;
+    margin-bottom: 10%;
+    width: 95%;
+}
+.comp{
+    margin-top: -39%;
+    width: 50%;
+    float: right;
+}
+.miniti1{
+    display: inline-block;
+    width: 50%;
+}
+.miniti2{
+    display: inline-block;
+    width: 50%;
+}
+.miniti3{
+    display: inline-block;
+    width: 50%;
+}
+.miniti4{
+    display: inline-block;
+    width: 50%;
+}
+.miniti1 h6,.miniti2 h6,.miniti3 h6,.miniti4 h6{
+    font-size: 120%;
+    margin-bottom: 5%;
+}
+.miniti1 p,.miniti2 p,.miniti3 p,.miniti4 p{
+    font-size: 100%;
+    margin-bottom: 4%;
+}
+.miniti1 i,.miniti2 i,.miniti3 i,.miniti4 i{
+    font-size: 190%;
+    opacity: 77%;
+}
 @media screen and (max-width: 850px){
 
 
