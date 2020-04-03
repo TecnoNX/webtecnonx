@@ -1,0 +1,53 @@
+.services{
+    background-color: gray;
+}
+.miniserv{
+    text-align: center;
+    padding: 3%;
+    margin: 2%;
+}
+.miniserv h4{
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+.miniserv p{
+    font-size: 18px;
+}
+.miniserv1{
+    float: left;
+    margin-left: 3%;
+}
+.miniserv1 img{
+  width: 100%;  
+}
+.miniserv2{
+    display: inline-block;
+    width: 40%;
+    padding: 2%;
+}
+.miniserv2 h6{
+    font-size: 24px;
+    margin-bottom: 3%;
+}
+.miniserv2 p{
+    font-size: 17px;
+    margin-bottom: 5.5%;
+}
+.miniserv2 button{
+    background-color: rgb(49, 185, 49);
+    width: 35%;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 20%;
+}
+
+
+.servmini{
+    text-align: center;
+}
+.servmini h4{
+    font-size: 36px;
+    margin-bottom: 2%;
+}

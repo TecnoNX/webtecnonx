@@ -90,7 +90,8 @@
           margin-bottom: 50%;
       }
       .login-box{
-          top:92%;
+          width: 100%;
+          top:70%;
           opacity: 97%;
       }
   }

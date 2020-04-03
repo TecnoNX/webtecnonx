@@ -1,0 +1,58 @@
+.imgcont4{
+    background: url(../images/nos1.jpg);
+    width: 46%;
+    padding-bottom: 67%;
+    z-index: 99;
+}
+.nos{
+    background-color:  rgba(48, 51, 54, 0.945);
+    
+}
+.nos img{
+    
+    width: 55%;
+    height: 650px;
+    float:right;
+}
+.nos h4{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.nos1{
+    width: 40%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.nos2{
+    width: 40%;
+    text-align: center;
+    padding-bottom: 10.5%;
+}
+.nosimg i{
+    font-size: 335%;
+    padding-bottom: 2%;
+}
+.nosimg2 i{
+    font-size: 335%;
+    padding-bottom: 2%;
+}
+
+@media screen and (max-width:920px){
+    .imgcont4{
+        background: none;
+    }
+    .nos img{
+        display: none;
+    }
+    .nos{
+        padding-left: 3.5%;
+
+    }
+    .nos1{
+        width: 100%;
+    }
+    .nos2{
+        width: 100%;
+    }
+}
