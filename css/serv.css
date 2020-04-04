@@ -18,7 +18,8 @@
     margin-left: 3%;
 }
 .miniserv1 img{
-  width: 100%;  
+  width: 100%;
+  border-radius: 12px;  
 }
 .miniserv2{
     display: inline-block;
@@ -40,7 +41,7 @@
     font-size: 16px;
     color: white;
     border-radius: 20px;
-    margin-bottom: 20%;
+    margin-bottom: 30%;
 }
 
 
@@ -49,5 +50,105 @@
 }
 .servmini h4{
     font-size: 36px;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
+}
+.servmini p{
+    margin-bottom: 8%;
+    font-size: 18px;
+}
+.servmi1{
+    background-color: rgb(41,46,51);
+    display: inline-block;
+    width: 25%;
+    margin-right: 4%;
+    border-radius: 12px;
+    padding: 2%;
+}
+.servmi2{
+    background-color: rgb(41,46,51);
+    display: inline-block;
+    width: 25%;
+    margin-right: 4%;
+    border-radius: 12px;
+    padding: 2%;
+}
+.servmi3{
+    background-color: rgb(41,46,51);
+    display: inline-block;
+    width: 25%;
+    border-radius: 12px;
+    padding: 2%;
+}
+.servmi1 h6, .servmi2 h6, .servmi3 h6{
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+.servmini2 {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+
+.servmini3{
+    text-align: center;
+}
+
+.servmi4{
+    background-color: rgb(41,46,51);
+    display: inline-block;
+    width: 25%;
+    margin-right: 4%;
+    border-radius: 12px;
+    padding: 2%;
+}
+.servmi5{
+    background-color: rgb(41,46,51);
+    display: inline-block;
+    width: 25%;
+    margin-right: 4%;
+    border-radius: 12px;
+    padding: 2%;
+}
+.servmi6{
+    background-color: rgb(41,46,51);
+    display: inline-block;
+    width: 25%;
+    border-radius: 12px;
+    padding: 2%;
+}
+.servmi4 h6, .servmi5 h6, .servmi6 h6{
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+.serv2 i{
+    font-size: 50px;
+    margin-bottom: 4%;
+}
+.servmi1 h6, .servmi5 h6{
+    margin-top: 3%;
+}
+
+
+@media screen and (max-width:880px){
+    .miniserv1 img{
+        width: 95%;
+        margin-bottom: 5%;
+    }
+    .miniserv2{
+        width: 90%;
+    }
+    .servmi1, .servmi2, .servmi3,.servmi4, .servmi5, .servmi6 {
+        
+        width: 60%;
+    }
+    .servmini2{
+        margin-bottom: 1%;
+    }
+    .servmini2 div{
+        margin-bottom: 7%;
+    }
+    .servmini3 div{
+        margin-bottom: 7%;
+    }
+
 }
